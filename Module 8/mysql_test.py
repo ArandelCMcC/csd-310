@@ -22,4 +22,8 @@ except mysql.connector.Error as err:
     else:
         print(err)
 finally:
+<<<<<<< HEAD
     db.close()
+=======
+    db.close()
+>>>>>>> 4fcd689039d585c3a065c2c0b82b861fc481a59e
